@@ -768,7 +768,7 @@ const MessagesList = ({ ticket, ticketId, isGroup }) => {
                 >
                   <ExpandMore />
                 </IconButton>
-                {('https://' + message.mediaUrl || message.mediaType === "locationMessage" || message.mediaType === "vcard"
+                {( message.mediaUrl || message.mediaType === "locationMessage" || message.mediaType === "vcard"
                   //|| message.mediaType === "multi_vcard" 
                 ) && checkMessageMedia(message)}
                 <div
